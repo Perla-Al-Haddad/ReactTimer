@@ -32,7 +32,60 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+h1.timer {
+  font-size: min(30vw, 30vh);
+}
+
+.timer {
+  color: white;
+}
+
+button.timer {
+  padding: 0;
+  padding-right: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 0;
+  border: none;
+  font-size: 2rem;
+}
+
+button.timer.on {
+  background-color: #1c53a1;
+}
+
+button.timer.off {
+  background-color: #282c34;
+}
+
+.App-header.on {
+  background-color: #1c53a1;
+}
+.App-header.off {
+  background-color: #282c34;
+}
+
+button.refresh {
+  padding: 0;
+  background-color: transparent;
+  font-size: 2rem;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button.refresh:hover {
+  transform: rotate(20deg);
+}
+
+.d-none {
+  display: none;
 }
